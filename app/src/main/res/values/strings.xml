@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FloodTracker</string>
+    <string name="title_activity_maps">Maps Activity</string>
+    <!-- Add other string resources here if needed -->
+</resources>

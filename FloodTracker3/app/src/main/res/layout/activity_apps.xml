@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/apps"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Apps"
+    android:background="@drawable/bgaboutus">
+
+
+    <TextView
+        android:id="@+id/textView76"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="459dp"
+        android:fontFamily="serif"
+        android:text="©FloodGo 2023"
+        android:textAlignment="center"
+        android:textColor="#656464"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/appdesc"
+        android:layout_width="362dp"
+        android:layout_height="390dp"
+        android:layout_below="@id/logoimage"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="177dp"
+        android:fontFamily="serif"
+        android:text="Flood trackers are online tools.  that monitor and provide information about flooding events in real-time or near-real-time. These tools typically use data from various sources, such as weather station, and user reports to track floods and display flood maps and warnings. The information provided by flood trackers is crucial for both the public and authorities to understand the current flood situation, assess the potential risks, and take appropriate actions to protect lives and property."
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#121111"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView19"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="-2dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:minHeight="48dp"
+        android:text="https://github.com/EdaRosli/FloodGo.git"
+        android:textAlignment="center"
+        android:textColor="#0C0C0C"
+        android:textColorLink="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="382dp"
+        android:fontFamily="serif"
+        android:text="Website Github:"
+        android:textAlignment="center"
+        android:textColor="#0D0D0E"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/title1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="9dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="ABOUT US"
+        android:textColor="#0F0F10"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/space1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/space"
+        android:layout_alignParentLeft="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/space"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title1"
+        android:layout_centerHorizontal="false" />
+
+
+    <ImageView
+        android:id="@+id/logoimage"
+        android:layout_width="143dp"
+        android:layout_height="134dp"
+        android:layout_below="@id/space1"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-58dp"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/pic4" />
+
+
+</RelativeLayout>
